@@ -1,5 +1,3 @@
-using System;
-
 namespace CoincheCardGame.Models
 {
     public class ErrorViewModel

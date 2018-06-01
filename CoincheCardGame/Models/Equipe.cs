@@ -1,13 +1,10 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-
-namespace CoincheCardGame.Models
+﻿namespace CoincheCardGame.Models
 {
     public class Equipe
     {
         private string joueur1;
         private string joueur2;
-        private int scoreCumule = 0;
+        private int scoreCumule;
 
         public string Joueur1
         {

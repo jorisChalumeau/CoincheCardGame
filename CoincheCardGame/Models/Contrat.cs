@@ -4,6 +4,5 @@
     {
         private Couleur couleur;
         private int mise;
-        
     }
 }
