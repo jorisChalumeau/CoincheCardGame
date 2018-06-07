@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace CoincheCardGame.Models
+namespace Server.Models
 {
     /**
      * il y a plusieurs manches par partie

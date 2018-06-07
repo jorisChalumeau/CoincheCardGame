@@ -1,4 +1,4 @@
-﻿namespace CoincheCardGame.Models
+﻿namespace Server.Models
 {
     public enum Couleur
     {

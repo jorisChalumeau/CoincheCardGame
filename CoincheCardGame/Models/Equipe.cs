@@ -1,18 +1,20 @@
-﻿namespace CoincheCardGame.Models
+﻿using System.Collections;
+
+namespace Server.Models
 {
     public class Equipe
     {
-        private string joueur1;
-        private string joueur2;
+        private ArrayList joueur1;
+        private ArrayList joueur2;
         private int scoreCumule;
 
-        public string Joueur1
+        public ArrayList Joueur1
         {
             get => joueur1;
             set => joueur1 = value;
         }
 
-        public string Joueur2
+        public ArrayList Joueur2
         {
             get => joueur2;
             set => joueur2 = value;
@@ -27,7 +29,7 @@
 
         public override string ToString()
         {
-            return "L'équipe de "+joueur1+" et "+joueur2;
+            return "L'équipe de "+joueur1[0]+" et "+joueur2[0];
         }
     }
 }

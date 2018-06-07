@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
-namespace CoincheCardGame.Models
+namespace Server.Models
 {
     /**
      * une partie est composée de plusieurs manches
@@ -19,7 +20,7 @@ namespace CoincheCardGame.Models
         /**
          * on ajoute le joueur qui rejoins la partie dans une equipe
          */
-        public bool addPlayer(string joueur)
+        public bool addPlayer(ArrayList joueur)
         {
             if (equipe1.Joueur1 == null) equipe1.Joueur1 = joueur;
             else if (equipe2.Joueur1 == null) equipe2.Joueur1 = joueur;

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CoincheCardGame.Models
+namespace Server.Models
 {
     public class Deck
     {

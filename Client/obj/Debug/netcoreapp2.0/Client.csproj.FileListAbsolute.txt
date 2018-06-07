@@ -1,0 +1,11 @@
+D:\Documents\GitHub\CoincheCardGame\Client\bin\Debug\netcoreapp2.0\Client.deps.json
+D:\Documents\GitHub\CoincheCardGame\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.json
+D:\Documents\GitHub\CoincheCardGame\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.dev.json
+D:\Documents\GitHub\CoincheCardGame\Client\bin\Debug\netcoreapp2.0\Client.dll
+D:\Documents\GitHub\CoincheCardGame\Client\bin\Debug\netcoreapp2.0\Client.pdb
+D:\Documents\GitHub\CoincheCardGame\Client\obj\Debug\netcoreapp2.0\Client.csprojAssemblyReference.cache
+D:\Documents\GitHub\CoincheCardGame\Client\obj\Debug\netcoreapp2.0\Client.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\CoincheCardGame\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfoInputs.cache
+D:\Documents\GitHub\CoincheCardGame\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfo.cs
+D:\Documents\GitHub\CoincheCardGame\Client\obj\Debug\netcoreapp2.0\Client.dll
+D:\Documents\GitHub\CoincheCardGame\Client\obj\Debug\netcoreapp2.0\Client.pdb
