@@ -47,7 +47,12 @@ namespace Server.Controllers
                             player = (ArrayList)players[i];
                             Console.WriteLine(player);
                             if(player != null)
-                                sendMessage("Welcome " + message.Substring(3), player[1].ToString(), (int) player[2]);
+                                if(player[0].ToString() == message.Substring(3)) {
+                                    sendMessage("Welcome " + message.Substring(3), player[1].ToString(), (int) player[2]);
+                                } else
+                                {
+                                    sendMessage("Player " + message.Substring(3) + " joined", player[1].ToString(), (int) player[2]);
+                                }
                         }
                     } else
                     {
