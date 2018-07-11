@@ -40,7 +40,15 @@ namespace Server.Controllers
                     p.Add(client.Port);
                     if (partie.addPlayer(p))
                     {
-                        sendMessage("Welcome "+p[0],p[1].ToString(),(int)p[2]);
+                        ArrayList players = partie.getPlayers();
+                        ArrayList player = new ArrayList();
+                        for (int i = 0; i < players.Count; i++)
+                        {
+                            player = (ArrayList)players[i];
+                            Console.WriteLine(player);
+                            if(player != null)
+                                sendMessage("Welcome " + message.Substring(3), player[1].ToString(), (int) player[2]);
+                        }
                     } else
                     {
                         sendMessage("Sorry "+p[0]+", the game is already full",p[1].ToString(),(int)p[2]);

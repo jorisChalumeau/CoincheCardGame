@@ -35,6 +35,16 @@ namespace Server.Models
             return true;
         }
 
+        public ArrayList getPlayers()
+        {
+            ArrayList toReturn = new ArrayList();
+            toReturn.Add(equipe1.Joueur1);
+            toReturn.Add(equipe2.Joueur1);
+            toReturn.Add(equipe1.Joueur2);
+            toReturn.Add(equipe2.Joueur2);
+            return toReturn;
+        }
+
         private void startGame()
         {
             while (equipe1.ScoreCumule < SCORE_END_GAME && equipe2.ScoreCumule < SCORE_END_GAME)
